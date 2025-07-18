@@ -1,0 +1,25 @@
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../../"
+
+# Verbose mv, cp, rm
+alias mv="mv -v"
+alias cp="cp -v"
+alias rm="rm -v"
+
+# ls
+alias l="ls"
+alias ll="ls -l"
+alias la="ls -al"
+
+# Shortcuts
+alias v="nvim"
+alias g="git"
+alias gi="git"
+
+alias diskspace="df -P -kHl"
+
+function grp() {
+    grep -rnw . -e $1
+}

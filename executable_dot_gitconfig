@@ -1,0 +1,40 @@
+[init]
+  defaultBranch = main
+
+[user]
+  name = ringo
+  email = minhduy.ringo@gmail.com
+
+[alias]
+  pushf = push --force
+  s = status
+  amend = commit --amend --all --no-edit
+  hreset = reset --hard
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[protocol]
+  version = 2
+
+[core]
+  excludesfile = ~/.gitignore
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
+
+[push]
+  default = current
+  followTags = true
+  autoSetupRemote = true
+
+[pull]
+  ff = only
+  default = current
+
+[checkout]
+  defaultRemote = origin
+
+[log]
+  date = human
