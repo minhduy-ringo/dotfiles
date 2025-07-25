@@ -46,6 +46,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 # Enable vim motion
 set -o vi
+set show-mode-in-prompt on
 
 # enable programmable completion features
 if ! shopt -oq posix; then
